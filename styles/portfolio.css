@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-color{
+    color: hsl(24, 94%, 50%);
+}
+
+/* header and navigation styles */
+.head-nav{
+    margin-top:20px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+nav ul{
+    display: flex;
+    align-items:center;
+}
+.button-style{
+    width: 130px;
+    border: 0px;
+    background-color: hsl(24, 94%, 50%);
+    border-radius: 5px;
+    height:50px;
+    font-size: 20px;
+    font-weight:700px;
+    padding: 15px 20px;
+}
+.head{
+    background-color:rgb(247, 233, 194) ;
+    background-image: url('../images/header_bg.png') , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:bottom right , left;
+}
+/* banner style */
+
+.banner{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-hi{
+    font-weight: 600px;
+    font-size:40px;  
+    margin-bottom: 5px; 
+}
+.banner-mary{
+    font-size:80px;
+    font-weight:700px;
+    margin-bottom: 20px;
+}
+.banner-pragraph{
+
+}
+.button-downlode{ 
+    width: 160px;
+    border: 0px;
+    background-color: hsl(24, 94%, 50%);
+    border-radius: 5px;
+    height:50px;
+    font-size: 20px;
+    font-weight:700px;
+    padding: z6px 20px;
+    margin-top: 30px;
+}
+.button-contact{
+    color:hsl(24, 94%, 50%) ;
+    width: 160px;
+    height:50px ;
+    font-size: 20px;
+    font-weight:700px;
+    margin-left: 50px;
+    border: 1px solid hsl(24, 94%, 50%);
+}
+/* main section */
+main{
+    max-width:1140px;
+    margin: 0px auto;
+
+}
+/* section style */
+
+.about{
+    text-align: center;
+    margin-top:100px;
+    background-color: hsl(24, 71%, 80%);
+    border:1px solid rgb(67, 131, 250);
+    border-radius: 10px;
+    padding: 80px 100px;
+
+}
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-p{
+    color: rgb(34, 27, 27);
+    font-size:20px;
+    margin-bottom: 30px;
+
+}
+.about-info-container{
+    /* flex box cheet sheet.....search*/
+    justify-content: space-around;
+    display: flex;
+}
+.about-title{
+    font-size: 20px;
+    color:#5a5656;
+}
+.about-discription{
+    font-size: 20px;
+    font-weight:700px;
+    color: #383636;
+}
