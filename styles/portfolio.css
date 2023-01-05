@@ -145,7 +145,7 @@ main{
     border-radius: 5px;
     padding: 30px;
     padding-top: 30px;
-    padding-bottom: ;
+    padding-bottom: 1px ;
 }
 
 .skill-name{
@@ -156,4 +156,37 @@ main{
 }
 .skill-biboron{
     color:#5a5656;
+}
+
+/* resume styles */
+
+.total-div{
+    display: flex;
+    gap: 24px;
+}
+.div-item{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.item-two{
+    font-size: 20px;
+}
+.meain-nam{
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+.first-contain-title{
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.item-one{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.item-two{
+    margin-bottom: 10px;
+    font-size: 17px;
 }
