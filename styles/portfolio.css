@@ -8,7 +8,6 @@
 
 /* header and navigation styles */
 .head-nav{
-    margin-top:20px;
 }
 
 .nav-title{
@@ -44,6 +43,7 @@ nav ul{
     background-image: url('../images/header_bg.png') , url('../images/developer.png');
     background-repeat: no-repeat;
     background-position:bottom right , left;
+    padding: 10px;
 }
 /* banner style */
 
@@ -198,11 +198,65 @@ main{
     text-align: center;
 }
 .downlode-button{
-    background-color:hsl(24, 94%, 50%) ;
+    background-color:hsl(24, 96%, 52%) ;
     height: 50px;
     width: 140px;
     border-radius: 5px;
     font-size: 20px;
     color: white;
     border-color: rgb(54, 88, 88);
+    margin-bottom: 20px;
+}
+
+/* contact section */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #f1e3da;
+}
+.c-p{
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: left;
+}
+.section-title-one{
+    width: 600px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 0px;
+    
+    padding: 130px 150px;
+}
+.image-tag{
+    margin-top: 15px;
+}
+.section-title-two{
+    margin-top: 150px;
+    margin-right: 200px;
+    width: 500px;
+}
+.tet{
+    margin-bottom: 20px;
+}
+.swapno{
+    margin-bottom: 20px;
+    height: 35px;
+    width: 300px;
+    padding-left: 15px;
+    border: none;
+}
+.last-ami{
+    margin-top:10px;
+    width: 130px;
+    border: 0px;
+    background-color: hsl(24, 94%, 50%);
+    border-radius: 5px;
+    height:45px;
+    font-size: 20px;
+}
+.one-swapno{
+    height: 130px;
+    width: 250px;
+    border: none;
 }
